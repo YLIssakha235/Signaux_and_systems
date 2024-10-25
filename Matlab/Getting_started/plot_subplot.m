@@ -1,0 +1,7 @@
+x = 0:0.01:5;
+y = exp(-1.5*x).*sin(10*x);
+subplot(1,2,1)
+plot(x,y), xlabel('x'), ylabel('exp(-1.5x)*sin(10x)')
+y = exp(-6*x).*sin(10*x);
+subplot(1,2,2)
+plot(x,y),xlabel('x'), ylabel('exp(-6x)*sin(10x)')
